@@ -1,0 +1,23 @@
+body {
+    background-color: #eee;
+  }
+  
+  @media (max-width: 767.98px) {
+    .border-sm-start-none {
+      border-left: none !important;
+    }
+  }
+
+  .offcanvas {
+    width: 15% !important;
+  }
+
+  .nav-link:hover, .nav-link.active{
+    color: blueviolet;
+    background-color: powderblue;
+    border-radius: 11%;
+  }
+  
+  .offcanvas.offcanvas-start {
+    transform: translateX(0%);
+  }
